@@ -547,6 +547,11 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		},
+		{
+			"area": "footer",
+			"name": "location",
+			"title": "Location & Contact"
 		}
 	],
 	"customTemplates": [
