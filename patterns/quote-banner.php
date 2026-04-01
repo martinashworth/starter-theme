@@ -1,15 +1,11 @@
-<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:template-part {"slug":"header","area":"header"} /--></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
-<!-- wp:post-featured-image {"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} /-->
-
-<!-- wp:post-content {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} /-->
-
-<!-- wp:template-part {"slug":"location","area":"footer"} /-->
-
+<?php
+/**
+ * Title: Quote Banner
+ * Slug: starter-theme/quote-banner
+ * Categories: text
+ * Description: Full-width dark banner with a quote and attribution.
+ */
+?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"blockGap":"var:preset|spacing|20"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"contrast","textColor":"accent-1","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-accent-1-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
 <!-- wp:heading {"level":5,"style":{"typography":{"fontWeight":"700"}}} -->
@@ -19,7 +15,5 @@
 <!-- wp:paragraph -->
 <p>Thich Nhat Hanh</p>
 <!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
